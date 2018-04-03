@@ -43,7 +43,7 @@ header {
     padding-bottom: 40px;
 }
 
-#bio{
+#bio, #projects, #contact{
     clear: both;
     margin: auto;
     Padding: 50px;
