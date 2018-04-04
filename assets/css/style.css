@@ -1,10 +1,15 @@
-body, #nav, #bio {
+body, #nav, #bio, #projects, #contact {
     width: 960px;
     
+}
+h1{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
 }
 html, body {
     height: 100%;
@@ -53,6 +58,38 @@ header {
     border-color: #cccccc;
     flex: 1 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+}
+#project1, #project3 {
+    z-index: 2;
+    float: left;
+}
+#project1, #project2, #project3, #project4, #project5{
+    position: relative;
+    background-color: #4aaaa5;
+    color: #ffffff;
+} 
+
+
+.resizedtextbox, textarea{
+    clear: both;
+    resize: none;
+    width: 100%;
+    border: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    padding: 5px;
+}
+textarea{
+    height: 100%;
+    padding-bottom: 150px;
+}
+input[type="submit"] {
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 body{
