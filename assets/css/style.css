@@ -4,10 +4,12 @@ body, #nav, #bio, #projects, #contact {
 }
 h1{
     padding: 10px;
+    font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
     padding: 10px;
+    font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
